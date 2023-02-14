@@ -1,3 +1,3 @@
 # ADNetworkSDK_IronsourceAdapter
 
-A description of this package.
+Адаптер для показа рекламы Mobidriven через Ironsource
