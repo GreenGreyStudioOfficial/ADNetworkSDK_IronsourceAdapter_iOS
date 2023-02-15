@@ -7,6 +7,7 @@
 
 import Foundation
 import ADNetworkSDK
+import IronSource
 
 @objc(ISMobidrivenCustomInterstitial)
 public class ISMobidrivenCustomInterstitial  : ISBaseInterstitial {

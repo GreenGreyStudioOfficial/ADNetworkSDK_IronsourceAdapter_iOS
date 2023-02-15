@@ -15,8 +15,5 @@ let package = Package(
         .target(
             name: "ADNetworkSDK_IronsourceAdapter",
             dependencies: []),
-        .testTarget(
-            name: "ADNetworkSDK_IronsourceAdapterTests",
-            dependencies: ["ADNetworkSDK_IronsourceAdapter"]),
     ]
 )
