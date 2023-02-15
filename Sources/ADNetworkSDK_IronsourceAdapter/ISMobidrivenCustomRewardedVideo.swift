@@ -7,7 +7,6 @@
 
 import Foundation
 import ADNetworkSDK
-import IronSource
 
 @objc(ISMobidrivenCustomRewardedVideo)
 public class ISMobidrivenCustomRewardedVideo : ISBaseRewardedVideo {

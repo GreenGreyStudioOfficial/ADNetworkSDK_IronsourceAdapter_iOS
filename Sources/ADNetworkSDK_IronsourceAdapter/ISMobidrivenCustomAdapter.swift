@@ -7,7 +7,6 @@
 
 import Foundation
 import ADNetworkSDK
-import IronSource
 
 @objc(ISMobidrivenCustomAdapter)
 public class ISMobidrivenCustomAdapter:ISBaseNetworkAdapter {    
