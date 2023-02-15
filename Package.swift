@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ADNetworkSDK_IronsourceAdapter",
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "ADNetworkSDK_IronsourceAdapter",
@@ -15,5 +16,6 @@ let package = Package(
         .target(
             name: "ADNetworkSDK_IronsourceAdapter",
             dependencies: []),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
