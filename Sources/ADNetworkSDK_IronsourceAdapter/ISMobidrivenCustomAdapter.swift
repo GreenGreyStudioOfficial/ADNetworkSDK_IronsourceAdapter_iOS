@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ADNetworkSDK
+//import ADNetworkSDK
 
 @objc(ISMobidrivenCustomAdapter)
 public class ISMobidrivenCustomAdapter:ISBaseNetworkAdapter {    

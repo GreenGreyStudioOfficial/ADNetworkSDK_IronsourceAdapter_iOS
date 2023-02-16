@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ADNetworkSDK
+//import ADNetworkSDK
 
 @objc(ISMobidrivenCustomInterstitial)
 public class ISMobidrivenCustomInterstitial  : ISBaseInterstitial {
