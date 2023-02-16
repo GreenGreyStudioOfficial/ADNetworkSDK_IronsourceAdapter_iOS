@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = 'Sources/ADNetworkSDK_IronsourceAdapter/**/*'
+  s.dependency 'IronSourceSDK', '~> 7.2.1.2'
 end
