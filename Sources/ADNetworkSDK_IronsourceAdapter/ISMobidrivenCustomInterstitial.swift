@@ -33,11 +33,11 @@ public class ISMobidrivenCustomInterstitial  : ISBaseInterstitial {
        showAd(withInstanceData: adData)
     }
     
-    private func showAd (withInstanceData:ISAdData) {
+    public  func showAd (withInstanceData:ISAdData) {
         // print("ISMobidrivenCustomInterstitial showAd")
     }
     
-    func destroy() {
+    public func destroy() {
         NotificationCenter.default.removeObserver(self)
         self.adDelegate = nil
     }

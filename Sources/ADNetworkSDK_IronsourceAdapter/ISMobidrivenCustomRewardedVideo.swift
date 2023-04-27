@@ -31,7 +31,7 @@ public class ISMobidrivenCustomRewardedVideo : ISBaseRewardedVideo {
        showRewardedVideoAd(withInstanceData: adData)
     }
     
-    private func showRewardedVideoAd (withInstanceData:ISAdData) {
+    public  func showRewardedVideoAd (withInstanceData:ISAdData) {
         // print("ISMobidrivenCustomRewardedVideo showAd")
     }
     
