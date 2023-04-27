@@ -7,8 +7,8 @@
 
 import Foundation
 import ADNetworkSDK
+import IronSource
 
-@objc(ISMobidrivenCustomAdapter)
 public class ISMobidrivenCustomAdapter:ISBaseNetworkAdapter {    
     public override func `init` (_ adData: ISAdData, delegate: ISNetworkInitializationDelegate) {
         //print("adData.configuration:")
