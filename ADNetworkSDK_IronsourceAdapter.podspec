@@ -19,4 +19,6 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' } 
   s.dependency "IronSourceSDK"
   s.dependency "ADNetworkSDK"
+  s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
